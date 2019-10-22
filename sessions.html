@@ -1,0 +1,1017 @@
+<!doctype html>
+<!--
+  Material Design Lite
+  Copyright 2015 Google Inc. All rights reserved.
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      https://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License
+-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="A front-end template that helps you build fast, modern mobile web apps.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>Material Design Lite</title>
+
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="icon" sizes="192x192" href="images/android-desktop.png">
+
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Material Design Lite">
+    <link rel="apple-touch-icon-precomposed" href="images/ios-desktop.png">
+
+    <!-- Tile icon for Win8 (144x144 + tile color) -->
+    <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
+    <meta name="msapplication-TileColor" content="#3372DF">
+
+    <link rel="shortcut icon" href="images/favicon.png">
+
+    <!-- SEO: If your mobile URL is different from the desktop URL, add a canonical link to the desktop page https://developers.google.com/webmasters/smartphone-sites/feature-phones -->
+    <!--
+    <link rel="canonical" href="http://www.example.com/">
+    -->
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <!-- link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.blue-light_blue.min.css" / -->
+    <link rel="stylesheet" href="material.colorset.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+    #view-source {
+      position: fixed;
+      display: block;
+      right: 0;
+      bottom: 0;
+      margin-right: 40px;
+      margin-bottom: 40px;
+      z-index: 900;
+    }
+    </style>
+  </head>
+  <body class="mdl-demo mdl-color--grey-100 mdl-color-text--grey-700 mdl-base">
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+      <header class="mdl-layout__header mdl-layout__header--scroll mdl-color--primary">
+        <div class="mdl-layout__header-row" style="height:30px;">
+        </div>
+        <div class="mdl-layout__header-row">
+          <h3><img src="./images/eof_logo_RGB_white_transparent.png"></h3>
+        </div>
+        <div class="mdl-layout__tab-bar mdl-js-ripple-effect mdl-color--primary-dark">
+          <a href="index.html" class="mdl-layout__tab">Contents</a>
+          <a href="sessions.html" class="mdl-layout__tab is-active">Sessions</a>
+        </div>
+      </header>
+
+<!--
+      <header class="mdl-layout__header mdl-layout__header--scroll mdl-color--primary">
+        <div class="mdl-layout--large-screen-only mdl-layout__header-row">
+        </div>
+        <div class="mdl-layout--large-screen-only mdl-layout__header-row">
+          <h3><img src="./images/eof_logo_RGB_white_transparent.png"></h3>
+        </div>
+        <div class="mdl-layout__tab-bar mdl-js-ripple-effect mdl-color--primary-dark">
+          <a href="index.html" class="mdl-layout__tab">Contents</a>
+          <a href="sessions.html" class="mdl-layout__tab is-active">Sessions</a>
+        </div>
+      </header>
+-->
+      <main class="mdl-layout__content">
+        <div class="mdl-layout__tab-panel is-active">
+
+          <section class="section--center mdl-grid mdl-grid--no-spacing" style="margin-bottom:0px;margin-top:0px;">
+            <div class="mdl-cell mdl-cell--12-col"> 
+　　　　　  <h5 class="mdl-cell--12-col" style="margin-top:0px;background-color:#888888;color:white;padding:10px;">11:00 START</h4>
+            </div>
+          </section>
+
+          <!-- A-1 11:00〜 -->
+          <section id="session_a1" class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+            <div class="mdl-card mdl-cell mdl-cell--12-col">
+              <div class="mdl-card__supporting-text mdl-grid mdl-grid--no-spacing" style="margin:24px;">
+
+                <div class="mdl-cell mdl-cell--12-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+                  <span class="timezone_hall">Hall・11:00〜</span>
+                  <!-- TODO: カテゴリ-->
+                  <!-- badge class="badge_1">Team / Communication</badge -->
+                  <!-- badge class="badge_2">Developer eXperience</badge -->
+                  <!-- badge class="badge_3">Architecture / Technology</badge -->
+                  <!-- badge class="badge_4">Design / Product</badge -->
+                </div>
+
+                <h5 class="mdl-cell--12-col">テスト駆動とエンジニアリング組織</h5>
+                <!-- TODO: セッション概要 -->
+
+                <div class="mdl-cell mdl-cell--12-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+                <p class="line_separator"><br /></p>
+                </div>
+                <div class="section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
+                  <div class="mdl-color--primary profile_circle-big">
+                  <img src="./images/speakers/A-1_takuto_wada.png" class="mdl-color--primary profile_circle-big">
+                  </div>
+                </div>
+
+                <div class="section__text mdl-cell mdl-cell--10-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
+                  <h5>和田 卓人 (わだ たくと)</h5>
+                  タワーズ・クエスト株式会社<br>
+                  プログラマ、テスト駆動開発者<br>
+                  <br>
+                  学生時代にソフトウェア工学を学び、オブジェクト指向分析/設計に傾倒。執筆活動や講演、ハンズオンイベントなどを通じてテスト駆動開発を広めようと努力している。 『プログラマが知るべき97のこと』（オライリージャパン、2010）監修。『SQLアンチパターン』（オライリージャパン、2013）監訳。『テスト駆動開発』（オーム社、2017）翻訳。 power-assert-js 作者。
+                </div>
+
+            </div>
+          </section>
+
+          <!-- B-1 11:00〜 -->
+          <section id="session_b1" class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+            <div class="mdl-card mdl-cell mdl-cell--12-col">
+              <div class="mdl-card__supporting-text mdl-grid mdl-grid--no-spacing" style="margin:24px;">
+
+                <div class="mdl-cell mdl-cell--12-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+                  <span class="timezone_room1">Room 1・11:00〜</span>
+                </div>
+
+                <h5 class="mdl-cell--12-col">Podcastという組織戦略</h5>
+                <!-- TODO: セッション概要 -->
+
+                <div class="mdl-cell mdl-cell--12-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+                <p class="line_separator"><br /></p>
+                </div>
+                <div class="section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
+                  <div class="mdl-color--primary profile_circle-big">
+                  <img src="./images/speakers/B-1_yoshimasa_iwase.png" class="mdl-color--primary profile_circle-big">
+                  </div>
+                </div>
+
+                <div class="section__text mdl-cell mdl-cell--10-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
+                  <h5>岩瀬 義昌 (いわせ よしまさ)</h5>
+                  <a href="http://fukabori.fm" target="_blank" style="color:#616161">fukabori.fm</a><br>
+                  <br>
+                  NTT国際通信株式会社 / NTTコミュニケーションズにて、 WebRTCプラットフォームであるSkyWayの開発・運用や、社内のエンジニア支援に携わるソフトウェアエンジニア。 また、技術者向けPodcastであるhttp://fukabori.fm のパーソナリティ。
+                </div>
+
+                <div class="section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
+                  <div class="mdl-color--primary profile_circle-big">
+                  <img src="./images/speakers/B-1_kenta_suzuki.jpg" class="mdl-color--primary profile_circle-big">
+                  </div>
+                </div>
+
+                <div class="section__text mdl-cell mdl-cell--10-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
+                  <h5>鈴木 健太 (すずき けんた)</h5>
+                  <a href="https://ajito.fm/" target="_blank" style="color:#616161">ajitofm</a><br>
+                  <br>
+                  株式会社fluct CTO。ajitofmパーソナリティ。広告周りのエンジニアリングをしています。共著に「みんなのGo言語」「データ分析基盤構築入門」など。
+                </div>
+
+                <div class="section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
+                  <div class="mdl-color--primary profile_circle-big">
+                  <img src="./images/speakers/B-1_yunon.png" class="mdl-color--primary profile_circle-big">
+                  </div>
+                </div>
+
+                <div class="section__text mdl-cell mdl-cell--10-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
+                  <h5>湯前 慶大 (ゆのまえ よしひろ)</h5>
+                  <a href="https://anchor.fm/em-fm" target="_blank" style="color:#616161">EM.FM</a><br>
+                  <br>
+                  <!-- TODO: プロフィール文 -->
+                </div>
+
+            </div>
+          </section>
+
+          <!-- C-1 11:00〜 -->
+          <section id="session_c1" class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+            <div class="mdl-card mdl-cell mdl-cell--12-col">
+              <div class="mdl-card__supporting-text mdl-grid mdl-grid--no-spacing" style="margin:24px;">
+
+                <div class="mdl-cell mdl-cell--12-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+                  <span class="timezone_room0">Room 0・11:00〜</span>
+                  <!-- TODO: カテゴリ -->
+                  <!-- badge class="badge_1">Team / Communication</badge -->
+                  <!-- badge class="badge_2">Developer eXperience</badge -->
+                  <!-- badge class="badge_3">Architecture / Technology</badge -->
+                  <!-- badge class="badge_4">Design / Product</badge -->
+                </div>
+
+                <h5 class="mdl-cell--12-col">正しいものを正しくともにつくる</h5>
+                <!-- TODO: セッション概要 -->
+
+                <div class="mdl-cell mdl-cell--12-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+                <p class="line_separator"><br /></p>
+                </div>
+                <div class="section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
+                  <div class="mdl-color--primary profile_circle-big">
+                  <img src="./images/speakers/C-1_toshihiro_ichitani.jpg" class="mdl-color--primary profile_circle-big">
+                  </div>
+                </div>
+
+                <div class="section__text mdl-cell mdl-cell--10-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
+                  <h5>市谷 聡啓 (いちたに としひろ)</h5>
+                  ギルドワークス株式会社<br>
+                  株式会社エナジャイル<br>
+                  DevLOVE<br>
+                  <br>
+                  サービスや事業についてのアイデア段階の構想から、コンセプトを練り上げていく仮説検証とアジャイル開発の運営について経験が厚い。プログラマーからキャリアをスタートし、SIerでのプロジェクトマネジメント、大規模インターネットサービスのプロデューサー、アジャイル開発の実践を経て、ギルドワークスを立ち上げる。それぞれの局面から得られた実践知で、ソフトウェアの共創に辿り着くべく越境し続けている。訳書に「リーン開発の現場」、著書に「カイゼン・ジャーニー」「正しいものを正しくつくる」がある
+                </div>
+
+            </div>
+          </section>
+
+
+          <section class="section--center mdl-grid mdl-grid--no-spacing" style="margin-bottom:0px;margin-top:0px;">
+            <div class="mdl-cell mdl-cell--12-col"> 
+　　　　　  <h5 class="mdl-cell--12-col" style="margin-top:0px;background-color:#888888;color:white;padding:10px;">12:10 START with LUNCH</h4>
+            </div>
+          </section>
+
+
+          <!-- A-2 12:10〜 -->
+          <section id="session_a2" class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+            <div class="mdl-card mdl-cell mdl-cell--12-col">
+              <div class="mdl-card__supporting-text mdl-grid mdl-grid--no-spacing" style="margin:24px;">
+
+                <div class="mdl-cell mdl-cell--12-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+                  <span class="timezone_hall">Hall・12:10〜</span>
+                </div>
+
+                <h5>プロジェクトマネジメントを武器に働こうとしていたら、組織/チーム作りを武器にしたくなった話</h5>
+                LINEの社内向けクラウドサービスプラットフォームの開発組織では、私が入社した2018年5月から月に1人以上のペースでメンバーが増え、現状は4拠点で60名近くとなっています。 多拠点/多言語が当たり前のLINEで全社横断的にプロジェクトマネジメントをサポートする部門に籍を置き、インフラ組織でプロジェクトマネジメントをやることになった私が、チームがより楽しくコラボレーションして開発ができる組織を目指し、プロジェクトの可視化やプロセス改善、スクラム導入、チームビルディングに挑戦したストーリーを、その時々の課題とそこから得た教訓を交えてお話いたします。また、プロセスやチームに向き合う私自身のマインドセットがどのように変わってきたのかもお話できればと思います。
+
+                <div class="mdl-cell mdl-cell--12-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+                <p class="line_separator"><br /></p>
+                </div>
+                <div class="section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
+                  <div class="mdl-color--primary profile_circle-big">
+                  <img src="./images/speakers/A-2_tanigawa.JPG" class="mdl-color--primary profile_circle-big">
+                  </div>
+                </div>
+
+                <div class="section__text mdl-cell mdl-cell--10-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
+                  <h5>谷川 能章 (たにがわ よしあき)</h5>
+                  <a href="https://engineering.linecorp.com/ja/" target="_blank" style="color:#616161">LINE株式会社</a><br>
+                  Delivery Managementチーム Technical Project Manager<br>
+                  <br>
+                  富士通でパブリッククラウドのテスト、DevOps周りの環境整備からキャリアをスタート。その後、PMO組織でリリースマネジメント、プロセス改善などを実施。LINEに入社後は、より開発チームに近いプロジェクトマネジメントに関わるようになり、言語も場所も多様なチームでアジャイルな開発を実践できるよう日々奮闘中。プロジェクトマネジメント、アジャイル領域ではまだまだひよっこですが、どうぞよろしくお願いします。<br>
+                  <br>
+                  <a href="https://twitter.com/LINE_DEV" target="_blank"><img src="./images/twitter.png" width="17px"> @LINE_DEV</a><br>
+                </div>
+
+            </div>
+          </section>
+
+          <!-- B-2 12:10〜 -->
+          <section id="session_b2" class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+            <div class="mdl-card mdl-cell mdl-cell--12-col">
+              <div class="mdl-card__supporting-text mdl-grid mdl-grid--no-spacing" style="margin:24px;">
+
+                <div class="mdl-cell mdl-cell--12-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+                  <span class="timezone_room1">Room 1・12:10〜</span>
+                </div>
+
+                <h5>大規模組織からスタートアップまで、楽天のマネジメントの多様性</h5>
+                楽天グループは、イノベーションを通じて人々と社会をエンパワーメントすることをミッションに掲げています。Eコマース、FinTech、デジタルコンテンツ、通信など70以上のサービスを展開し、世界約13億人のユーザーに利用されています。今回のセッションでは、楽天の中でも大規模な楽天市場の開発組織と、同じ会社の中でも全く毛色の違うスタートアップ系サービスの開発組織それぞれについてお話します。同じ会社の開発組織でも全く異なる2つのマネジメント、それぞれどのように開発組織と向き合ってきたか、またそれぞれにおける挑戦、変革、戦いなどできるだけ事例を交えながら楽天のマネジメントの多様性についてお伝えできたらと思います。
+
+
+                <div class="mdl-cell mdl-cell--12-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+                <p class="line_separator"><br /></p>
+                </div>
+                <div class="section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
+                  <div class="mdl-color--primary profile_circle-big">
+                  <img src="./images/speakers/B-2_kawamura.jpg" class="mdl-color--primary profile_circle-big">
+                  </div>
+                </div>
+
+                <div class="section__text mdl-cell mdl-cell--10-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
+                  <h5>絹川 達也 (きぬがわ たつや)</h5>
+                  <a href="https://corp.rakuten.co.jp/" target="_blank" style="color:#616161">楽天株式会社</a><br>
+                  ECインキュベーション開発部 General Manager<br>
+                  <br>
+                  ベンチャー企業２社にて営業、編成、事業開発などを経験の後、楽天大阪支社に入社。いくつかのサービスのプロデューサーを経験後、大阪・仙台・名古屋の開発拠点のマネジメントに従事。現在、ECインキュベーション開発部のジェネラルマネージャーとして『ラクマ』『楽天ペイ オンライン決済』『楽天車検』など、複数サービスの開発部署のマネジメントを担当。
+                </div>
+
+                <div class="section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
+                  <div class="mdl-color--primary profile_circle-big">
+                  <img src="./images/speakers/B-2_kinugawa.jpg" class="mdl-color--primary profile_circle-big">
+                  </div>
+                </div>
+
+                <div class="section__text mdl-cell mdl-cell--10-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
+                  <h5>河村 真 (かわむら まこと)</h5>
+                  <a href="https://corp.rakuten.co.jp/" target="_blank" style="color:#616161">楽天株式会社</a><br>
+                  ECマーケットプレイス開発部 Vice General Manager<br>
+                  <br>
+                  楽天株式会社 ECマーケットプレイス開発部 ヴァイスジェネラルマネージャー。多国籍企業での大規模ソフトウェア開発の各種マネージメントやスタートアップのCTOを経て2018年楽天株式会社入社。現在楽天市場サービスのアーキテクチャおよび次世代プラットフォームの開発推進を担当。<br>
+                  <br>
+                  <a href="https://twitter.com/rakuten_tech" target="_blank"><img src="./images/twitter.png" width="17px"> @rakuten_tech</a>
+                </div>
+
+
+            </div>
+          </section>
+
+          <!-- C-2 12:10〜 -->
+          <section id="session_c2" class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+            <div class="mdl-card mdl-cell mdl-cell--12-col">
+              <div class="mdl-card__supporting-text mdl-grid mdl-grid--no-spacing" style="margin:24px;">
+
+                <div class="mdl-cell mdl-cell--12-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+                  <span class="timezone_room0">Room 0・11:00〜</span>
+                </div>
+
+                <h5>筋肉質なエンジニア組織を目指して ~失敗と成功から学ぶエンジニア組織の作り方~</h5>
+                私がSansanに入社してから現在至るまでの個人向け名刺アプリEightの開発組織の変遷と、そこで自身が体験した失敗や成功についてご紹介します。また、それらの体験を現在の立場から俯瞰し、一般論を交えつつ、私自身が考えている、成果を出し続けることができる目指すべきエンジニア組織像についてご紹介いたします。に
+
+                <div class="mdl-cell mdl-cell--12-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+                <p class="line_separator"><br /></p>
+                </div>
+                <div class="section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
+                  <div class="mdl-color--primary profile_circle-big">
+                  <img src="./images/speakers/C-2_suzuki.png" class="mdl-color--primary profile_circle-big">
+                  </div>
+                </div>
+
+                <div class="section__text mdl-cell mdl-cell--10-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
+                  <h5>鈴木 康寛 (すずき やすのり)</h5>
+                  <a href="https://jp.corp-sansan.com/" target="_blank" style="color:#616161">Sansan株式会社</a><br>
+                  Eight事業部 Chief Engineering Manager<br>
+                  <br>
+                  2013年 Sansan株式会社に入社。
+Eight事業部でRailsにてバックエンドの開発に従事する。 Redshiftを用いたKPI取得の仕組みを開発し、データ規模が拡大する現在でもパフォーマンスを維持する基盤を築いた。 その後、Eightの基本的な機能であるつながり処理の改善やビジネスネットワークの第一歩となるフィード機能のプロトタイプ開発を行い、ニュース配信機能やレコメンド機能改良等の開発を先導し、自らも実装に参画した。 上記レコメンドアーキテクチャ刷新事例としてAWS Dev Day 2017に登壇。
+現在はチーフエンジニアリングマネージャーとして、Eight開発組織の課題解決に従事。
+                </div>
+
+            </div>
+          </section>
+
+
+          <section class="section--center mdl-grid mdl-grid--no-spacing" style="margin-bottom:0px;margin-top:0px;">
+            <div class="mdl-cell mdl-cell--12-col"> 
+　　　　　  <h5 class="mdl-cell--12-col" style="margin-top:0px;background-color:#888888;color:white;padding:10px;">13:05 START</h4>
+            </div>
+          </section>
+
+
+          <!-- A-3 13:05〜 -->
+          <section id="session_a3" class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+            <div class="mdl-card mdl-cell mdl-cell--12-col">
+              <div class="mdl-card__supporting-text mdl-grid mdl-grid--no-spacing" style="margin:24px;">
+
+                <div class="mdl-cell mdl-cell--12-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+                  <span class="timezone_hall">Hall・13:05〜</span>
+                </div>
+
+                <h5>社員100人規模のWebサービスにおけるエンジニアリングマネジメント</h5>
+                スタートアップ企業が、初期の明日が見えないフェーズから徐々に組織として成立し、その組織の成長を作るためにマネジメントを強化していく中で、様々な課題が起こります。社員である開発者がエンジニアリングマネジメントのスキルや経験を獲得していく話やCTOの役割の変化を通じて、皆様のキャリアの視野を広げエンジニアリングマネジメントに挑戦する人たちを増やしたいと考えています。
+
+                <div class="mdl-cell mdl-cell--12-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+                <p class="line_separator"><br /></p>
+                </div>
+                <div class="section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
+                  <div class="mdl-color--primary profile_circle-big">
+                  <img src="./images/speakers/A-3_shinichi_fujikawa.jpg" class="mdl-color--primary profile_circle-big">
+                  </div>
+                </div>
+
+                <div class="section__text mdl-cell mdl-cell--10-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
+                  <h5>藤川 真一 (ふじかわ しんいち)</h5>
+                  <a href="https://binc.jp/" target="_blank" style="color:#616161">BASE株式会社</a><br>
+                  取締役 EVP of Development<br>
+                  <br>
+                  FA装置メーカー、Web制作のベンチャーを経て、2006年にGMOペパボに入社。07年から個人でモバイル端末向けのTwitterウェブサービス型クライアント『モバツイ』の開発・運営を開始。10年、想創社を設立し、12年4月まで代表取締役社長を務める。14年8月からBASE株式会社のCTOに就任。2019年7月、同社CTOを退任しEVP of Development ならびにグループ会社のPAY株式会社 取締役に就任。
+17年9月に慶應義塾大学大学院メディアデザイン研究科博士課程を単位取得満期退学、18年1月博士（メディアデザイン学）取得、同学科研究員。<br>
+                  <br>
+                  <a href="https://twitter.com/fshin2000" target="_blank"><img src="./images/twitter.png" width="17px"> @fshin2000</a> <a href="https://twitter.com/binc_jp" target="_blank">@binc_jp</a>
+                </div>
+
+            </div>
+          </section>
+
+          <!-- B-3 13:05〜 -->
+          <section id="session_b3" class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+            <div class="mdl-card mdl-cell mdl-cell--12-col">
+              <div class="mdl-card__supporting-text mdl-grid mdl-grid--no-spacing" style="margin:24px;">
+
+                <div class="mdl-cell mdl-cell--12-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+                  <span class="timezone_room1">Room 1・13:05〜</span>
+                </div>
+
+                <h5>なんとなくチームを構成することから脱却する方法</h5>
+                良いプロダクトを作るためには、良いチームが必要です。 良いチームになるためには、組織として適切なチームをデザインできていることがポイントです。 これは、スクラムをやるためにスクラムチームを作るのではなく、今所属しているメンバーを見て、最良のプロダクトを届けるためのチームをデザインするということです。 このためには、プロダクトの性質、メンバーのスキル、デプロイ頻度、開発拠点、文化など、様々な観点を考慮しなければいけません。 　 しかし、これら観点が全てベストな状態であるチームを構成出来ることはまれで、ほとんどの場合、何かしらのトレードオフを受け入れながら構成していかなければなりません。 例えば開発拠点が2つにまたがっているとき、拠点ごとにチームを作るのは良くあるやり方ですが、機能を実装するのに1つの拠点では完結しない場合はこのやり方がベストとは限りません。拠点をまたいでチームを作る、という方法もあります。しかし、この場合はコミュニケーションコストが上がるのでそれを下げるような制度や設備があるかどうかを考慮する必要があります。今回の発表では、アカツキで直面したゲーム開発チームにおけるトレードオフの関係をしながら、どのようにチーム構成を組んだのか可視化していきます。
+
+                <div class="mdl-cell mdl-cell--12-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+                <p class="line_separator"><br /></p>
+                </div>
+                <div class="section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
+                  <div class="mdl-color--primary profile_circle-big">
+                  <img src="./images/speakers/B-3_yunon.png" class="mdl-color--primary profile_circle-big">
+                  </div>
+                </div>
+
+                <div class="section__text mdl-cell mdl-cell--10-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
+                  <h5>湯前 慶大 (ゆのまえ よしひろ)</h5>
+                  <a href="https://aktsk.jp/" target="_blank" style="color:#616161">株式会社アカツキ</a><br>
+                  VP of Engineering<br>
+                  <br>
+                  2010年に大手電気メーカーに新卒で入社。社会インフラ向けのLinuxカーネルの研究開発に従事。
+2014年に株式会社アカツキに入社し、モバイルゲームのクライアントエンジニアとしてアプリ開発に従事。その後、モバイルゲームの新規開発タイトル・運用タイトルのエンジニアリングマネージャーを歴任し、2017年にVP of Engineeringに就任。
+現在は、新規開発タイトルのエンジニアリングマネージャーに従事しながら、スケールアップとスケールアウトを意識したエンジニア組織のアップデートを図っている。
+                  <br>
+                  <br>
+                  <a href="https://twitter.com/akatsukiPR" target="_blank"><img src="./images/twitter.png" width="17px"> @akatsukiPR</a> <a href="https://twitter.com/yunon_phys" target="_blank">@yunon_phys</a>
+                </div>
+
+            </div>
+          </section>
+
+          <!-- C-3 13:05〜 -->
+          <section id="session_c3" class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+            <div class="mdl-card mdl-cell mdl-cell--12-col">
+              <div class="mdl-card__supporting-text mdl-grid mdl-grid--no-spacing" style="margin:24px;">
+
+                <div class="mdl-cell mdl-cell--12-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+                  <span class="timezone_room0">Room 0・13:05〜</span>
+                </div>
+
+                <h5>クライアントワーク企業でもできるエンジニアリング組織のつくり方</h5>
+                 お客様先に常駐するSES形態の業務がメインである会社では、エンジニアリング組織をつくることが難しいと考えられています。働き方の制約がある中でも、問題を直視することで組織を変え、エンジニアの文化をつくっていくことができます。10年間に渡る組織の変遷とその取り組み、立ちはだかった壁とそれをどう乗り越えたのか。また、どのような課題が残っているのか、について率直にお伝えします。
+
+                <div class="mdl-cell mdl-cell--12-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+                <p class="line_separator"><br /></p>
+                </div>
+                <div class="section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
+                  <div class="mdl-color--primary profile_circle-big">
+                  <img src="./images/speakers/C-3_nagae.jpg" class="mdl-color--primary profile_circle-big">
+                  </div>
+                </div>
+
+                <div class="section__text mdl-cell mdl-cell--10-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
+                  <h5>永江 耕治 (ながえ こうじ)</h5>
+                  <a href="https://www.ap-com.co.jp/" target="_blank" style="color:#616161">株式会社エーピーコミュニケーションズ</a><br>
+                  取締役副社長<br>
+                  <br>
+                  1973年生まれ、神奈川県育ち。青山学院大学卒業後、Web制作会社勤務を経て、2002年株式会社エーピーコミュニケーションズに入社し、2008年執行役員に就任。2012年には業務の傍らMBA（中央大学大学院人的資源管理専攻）を取得。
+プログラマー、インフラエンジニアを経て、マネジメント業務にシフト。事業責任者を経験した後に、人事部門に異動して組織・人材開発・人事制度リニューアルの業務に7年間携わった。再び事業責任者に戻り、2018年より取締役副社長に就任。<br>
+                  <br>
+                  <a href="https://twitter.com/sieg_tweet" target="_blank"><img src="./images/twitter.png" width="17px"> @sieg_tweet</a>
+                </div>
+
+            </div>
+          </section>
+
+
+          <section class="section--center mdl-grid mdl-grid--no-spacing" style="margin-bottom:0px;margin-top:0px;">
+            <div class="mdl-cell mdl-cell--12-col"> 
+　　　　　  <h5 class="mdl-cell--12-col" style="margin-top:0px;background-color:#888888;color:white;padding:10px;">14:00 START</h4>
+            </div>
+          </section>
+
+
+          <!-- A-4 14:00〜 -->
+          <section id="session_a4" class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+            <div class="mdl-card mdl-cell mdl-cell--12-col">
+              <div class="mdl-card__supporting-text mdl-grid mdl-grid--no-spacing" style="margin:24px;">
+
+                <div class="mdl-cell mdl-cell--12-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+                  <span class="timezone_hall">Hall・14:00〜</span>
+                </div>
+
+                <h5><!-- TODO: タイトル -->[準備中]</h5>
+                <!-- TODO: セッション概要 -->
+
+                <div class="mdl-cell mdl-cell--12-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+                <p class="line_separator"><br /></p>
+                </div>
+                <div class="section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
+                  <div class="mdl-color--primary profile_circle-big">
+                  <!-- img src="./images/speakers/" class="mdl-color--primary profile_circle-big" -->
+                  </div>
+                </div>
+
+                <div class="section__text mdl-cell mdl-cell--10-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
+                  <h5><!-- TODO: スピーカー氏名 -->-- --</h5>
+                  <!-- TODO: 所属企業・団体名 --><br>
+                  <!-- TODO: 役職・ポジション--><br>
+                  <br>
+                  <!-- TODO: プロフィール文 -->
+                </div>
+
+            </div>
+          </section>
+
+          <!-- B-4 14:00〜 -->
+          <section id="session_b4" class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+            <div class="mdl-card mdl-cell mdl-cell--12-col">
+              <div class="mdl-card__supporting-text mdl-grid mdl-grid--no-spacing" style="margin:24px;">
+
+                <div class="mdl-cell mdl-cell--12-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+                  <span class="timezone_room1">Room 1・14:00〜</span>
+                </div>
+
+                <h5>自分らしいリーダーシップの形</h5>
+                マネージャーと呼ばれる人たちが自分らしいリーダーシップの形を獲得するのはとても大事だと思っていて、それを私が試行錯誤した話をしようと思います。 マネージャーの在り方の本などは多くありますが、どれも自分に合うかどうかは試行錯誤しなくてはならないので、どのように試していけばいいのかわからないことも多いです。今回はその一例を皆さんに共有出来たら参考になるかなと思ってお話しさせていただきます。
+
+                <div class="mdl-cell mdl-cell--12-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+                <p class="line_separator"><br /></p>
+                </div>
+                <div class="section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
+                  <div class="mdl-color--primary profile_circle-big">
+                  <img src="./images/speakers/B-4_yamazaki.jpg" class="mdl-color--primary profile_circle-big">
+                  </div>
+                </div>
+
+                <div class="section__text mdl-cell mdl-cell--10-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
+                  <h5>山崎 遼介 (やまざき りょうすけ)</h5>
+                  <a href="https://www.freee.co.jp" target="_blank" style="color:#616161">freee株式会社</a><br>
+                  エンジニアマネージャー<br>
+                  <br>
+                  freeeにてエンジニアマネージャーをやっています。普段は開発したり、スクラム回したり、設計したりしています。エンジニア業の傍らコーチ業も行っており、社内や社外で相談を受けています。<br>
+                  <br>
+                  <a href="https://twitter.com/freeeDevelopers" target="_blank"><img src="./images/twitter.png" width="17px"> @freeeDevelopers</a> <a href="https://twitter.com/moaieee" target="_blank">@moaieee</a>
+                </div>
+
+            </div>
+          </section>
+
+          <!-- C-4 14:00〜 -->
+          <section id="session_c4" class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+            <div class="mdl-card mdl-cell mdl-cell--12-col">
+              <div class="mdl-card__supporting-text mdl-grid mdl-grid--no-spacing" style="margin:24px;">
+
+                <div class="mdl-cell mdl-cell--12-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+                  <span class="timezone_room0">Room 0・14:00〜</span>
+                </div>
+
+                <h5><!-- TODO: セッションタイトル -->[準備中]</h5>
+                <!-- TODO: セッション概要 -->
+
+                <div class="mdl-cell mdl-cell--12-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+                <p class="line_separator"><br /></p>
+                </div>
+                <div class="section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
+                  <div class="mdl-color--primary profile_circle-big">
+                  <!-- img src="./images/speakers/" class="mdl-color--primary profile_circle-big" -->
+                  </div>
+                </div>
+
+                <div class="section__text mdl-cell mdl-cell--10-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
+                  <h5><!-- TODO: スピーカー氏名 -->-- --</h5>
+                  <!-- TODO: 所属企業・団体名 --><br>
+                  <!-- TODO: 役職・ポジション--><br>
+                  <br>
+                  <!-- TODO: プロフィール文 -->
+                </div>
+
+            </div>
+          </section>
+
+
+          <section class="section--center mdl-grid mdl-grid--no-spacing" style="margin-bottom:0px;margin-top:0px;">
+            <div class="mdl-cell mdl-cell--12-col">
+　　　　　  <h5 class="mdl-cell--12-col" style="margin-top:0px;background-color:#888888;color:white;padding:10px;">15:00 START</h4>
+            </div>
+          </section>
+
+
+          <!-- A-5 15:00〜 -->
+          <section id="session_a5" class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+            <div class="mdl-card mdl-cell mdl-cell--12-col">
+              <div class="mdl-card__supporting-text mdl-grid mdl-grid--no-spacing" style="margin:24px;">
+
+                <div class="mdl-cell mdl-cell--12-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+                  <span class="timezone_hall">Hall・15:00〜</span>
+                </div>
+
+                <h5>ミクシィのマネージャーは悩んでいる</h5>
+                ミクシィグループには規模やフェーズの異なる様々なサービス・部署があるため、EMが抱える悩みも多様です。そこでこのセッションでは、各部署のEMにインタビューとアンケート集計を行なった結果をもとに、「家族アルバム みてね」のEMを務める酒井が、これまでの経験を元に各部署のEMが抱える悩みに対して回答しながら、みなさんにミクシィのEMが抱える悩みと現実を共有します。
+
+                <div class="mdl-cell mdl-cell--12-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+                <p class="line_separator"><br /></p>
+                </div>
+                <div class="section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
+                  <div class="mdl-color--primary profile_circle-big">
+                  <img src="./images/speakers/A-5_atsushi_sakai.jpg" class="mdl-color--primary profile_circle-big">
+                  </div>
+                </div>
+
+                <div class="section__text mdl-cell mdl-cell--10-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
+                  <h5>酒井 篤 (さかい あつし)</h5>
+                  <a href="https://mixi.co.jp/recruit/" target="_blank" style="color:#616161">株式会社ミクシィ</a><br>
+                  みてね事業部 開発グループ マネージャー<br>
+                  <br>
+                  2011年11月 株式会社ミクシィ入社。2014年より「家族アルバム みてね」の開発を開始。現在は同サービスのSREとグループのエンジニアマネージャーを兼任しています。<br>
+                  <br>
+                  <a href="https://twitter.com/mixi_engineers" target="_blank"><img src="./images/twitter.png" width="17px"> @mixi_engineers</a> 
+                </div>
+
+            </div>
+          </section>
+
+          <!-- B-5 15:00〜 -->
+          <section id="session_b5" class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+            <div class="mdl-card mdl-cell mdl-cell--12-col">
+              <div class="mdl-card__supporting-text mdl-grid mdl-grid--no-spacing" style="margin:24px;">
+
+                <div class="mdl-cell mdl-cell--12-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+                  <span class="timezone_room1">Room 1・15:00〜</span>
+                </div>
+
+                <h5><!-- TODO: セッションタイトル -->[準備中]</h5>
+                <!-- TODO: セッション概要 -->
+
+                <div class="mdl-cell mdl-cell--12-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+                <p class="line_separator"><br /></p>
+                </div>
+                <div class="section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
+                  <div class="mdl-color--primary profile_circle-big">
+                  <!-- TODO img src="./images/speakers/" class="mdl-color--primary profile_circle-big" -->
+                  </div>
+                </div>
+
+                <div class="section__text mdl-cell mdl-cell--10-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
+                  <h5><!-- TODO: スピーカー氏名 -->-- --</h5>
+                  <!-- TODO: 所属企業・団体名 --><br>
+                  <!-- TODO: 役職・ポジション--><br>
+                  <br>
+                  <!-- TODO: プロフィール文 -->
+                </div>
+
+            </div>
+          </section>
+
+          <!-- C-5 15:00〜 -->
+          <section id="session_c5" class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+            <div class="mdl-card mdl-cell mdl-cell--12-col">
+              <div class="mdl-card__supporting-text mdl-grid mdl-grid--no-spacing" style="margin:24px;">
+
+                <div class="mdl-cell mdl-cell--12-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+                  <span class="timezone_room0">Room 0・15:00〜</span>
+                </div>
+
+                <h5><!-- TODO: セッションタイトル -->[準備中]</h5>
+                <!-- TODO: セッション概要 -->
+
+                <div class="mdl-cell mdl-cell--12-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+                <p class="line_separator"><br /></p>
+                </div>
+                <div class="section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
+                  <div class="mdl-color--primary profile_circle-big">
+                  <!-- img src="./images/speakers/" class="mdl-color--primary profile_circle-big" -->
+                  </div>
+                </div>
+
+                <div class="section__text mdl-cell mdl-cell--10-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
+                  <h5><!-- TODO: スピーカー氏名 -->-- --</h5>
+                  <!-- TODO: 所属企業・団体名 --><br>
+                  <!-- TODO: 役職・ポジション--><br>
+                  <br>
+                  <!-- TODO: プロフィール文 -->
+                </div>
+
+            </div>
+          </section>
+
+
+          <section class="section--center mdl-grid mdl-grid--no-spacing" style="margin-bottom:0px;margin-top:0px;">
+            <div class="mdl-cell mdl-cell--12-col">
+　　　　　  <h5 class="mdl-cell--12-col" style="margin-top:0px;background-color:#888888;color:white;padding:10px;">16:00 START</h4>
+            </div>
+          </section>
+
+
+          <!-- A-6 16:00〜 -->
+          <section id="session_a6" class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+            <div class="mdl-card mdl-cell mdl-cell--12-col">
+              <div class="mdl-card__supporting-text mdl-grid mdl-grid--no-spacing" style="margin:24px;">
+
+                <div class="mdl-cell mdl-cell--12-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+                  <span class="timezone_hall">Hall・16:00〜</span>
+                </div>
+
+                <h5 class="mdl-cell--12-col">チャットコミュニケーションの問題と心理的安全性の課題</h5>
+                
+
+                <div class="mdl-cell mdl-cell--12-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+                <p class="line_separator"><br /></p>
+                </div>
+                <div class="section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
+                  <div class="mdl-color--primary profile_circle-big">
+                  <img src="./images/speakers/A-6_tokoroten_nakayama.jpg" class="mdl-color--primary profile_circle-big">
+                  </div>
+                </div>
+
+                <div class="section__text mdl-cell mdl-cell--10-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
+                  <h5>中山 ところてん (なかやま ところてん)</h5>
+                  株式会社NextInt<br>
+                  雑用係<br>
+                  <br>
+                  通信会社の研究所にて情報セキュリティやビッグデータ基盤の研究開発に従事。その後、ソーシャルゲームの分析や企画、機械学習を利用したECの販促支援ツールの開発を経て、株式会社NextIntを起業。現在は機械学習のコンサルティングや、新規事業企画サポート、ゲームディレクターを行いつつ、グループソーシャルブックマークのVeinの開発を行っています。<br>
+                  <br>
+                  <a href="https://twitter.com/tokoroten" target="_blank"><img src="./images/twitter.png" width="17px"> @tokoroten</a>
+                </div>
+
+            </div>
+          </section>
+
+          <!-- B-6 16:00〜 -->
+          <section id="session_b6" class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+            <div class="mdl-card mdl-cell mdl-cell--12-col">
+              <div class="mdl-card__supporting-text mdl-grid mdl-grid--no-spacing" style="margin:24px;">
+
+                <div class="mdl-cell mdl-cell--12-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+                  <span class="timezone_room1">Room 1・16:00〜</span>
+                </div>
+
+                <h5 class="mdl-cell--12-col">レガシーコードからの脱却</h5>
+                ソフトウェアは、それが役にたっていれば、さまざまな変更が加わります。
+変更は安価で容易に行えなければいけませんが、残念ながらそうなっていないことが多いのが実情です。
+本セッションでは、いかにして変更が容易なコードを書くか、つまりいかに最初からレガシーコードを作らないようにするかについて同名書籍の内容をもとに解説します。
+
+                <div class="mdl-cell mdl-cell--12-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+                <p class="line_separator"><br /></p>
+                </div>
+                <div class="section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
+                  <div class="mdl-color--primary profile_circle-big">
+                  <img src="./images/speakers/B-6_ryutaro_yoshiba.png" class="mdl-color--primary profile_circle-big">
+                  </div>
+                </div>
+
+                <div class="section__text mdl-cell mdl-cell--10-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
+                  <h5>吉羽 龍太郎 (よしば りゅうたろう)</h5>
+                  株式会社アトラクタ<br>
+                  取締役CTO/アジャイルコーチ<br>
+                  <br>
+                  アジャイル開発のコーチングやトレーニングに従事。Scrum Alliance認定チームコーチ(CTC)。Microsoft MVP for Azure。
+野村総合研究所、Amazon Web Servicesなどを経て現職。<br>
+著書に『SCRUM BOOT CAMP THE BOOK』など、訳書・監訳書に『レガシーコードからの脱却』『Effective DevOps』など多数。<br>
+<br>
+                  <a href="https://twitter.com/ryuzee" target="_blank"><img src="./images/twitter.png" width="17px"> @ryuzee</a><br>
+                  Blog: <a href="http://www.ryuzee.com/" target="_blank">http://www.ryuzee.com/</a><br>
+                </div>
+
+            </div>
+          </section>
+
+          <!-- C-6 16:00〜 -->
+          <section id="session_c6" class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+            <div class="mdl-card mdl-cell mdl-cell--12-col">
+              <div class="mdl-card__supporting-text mdl-grid mdl-grid--no-spacing" style="margin:24px;">
+
+                <div class="mdl-cell mdl-cell--12-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+                  <span class="timezone_room0">Room 0・16:00〜</span>
+                </div>
+
+                <h5 class="mdl-cell--12-col">学習する組織の作り方</h5>
+                
+
+                <div class="mdl-cell mdl-cell--12-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+                <p class="line_separator"><br /></p>
+                </div>
+                <div class="section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
+                  <div class="mdl-color--primary profile_circle-big">
+                  <img src="./images/speakers/C-6_yousuke_furukawa.jpg" class="mdl-color--primary profile_circle-big">
+                  </div>
+                </div>
+
+                <div class="section__text mdl-cell mdl-cell--10-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
+                  <h5>古川 陽介 (ふるかわ ようすけ)</h5>
+                  株式会社リクルートテクノロジーズ<br>
+                  <br>
+                  Node.js Core Contributor, Representative Director of Japan Node.js Association, Senior Software Engineer/Group Manager of Recruit Tech.>
+                </div>
+
+            </div>
+          </section>
+
+
+          <section class="section--center mdl-grid mdl-grid--no-spacing" style="margin-bottom:0px;margin-top:0px;">
+            <div class="mdl-cell mdl-cell--12-col">
+　　　　　  <h5 class="mdl-cell--12-col" style="margin-top:0px;background-color:#888888;color:white;padding:10px;">17:00 START</h4>
+            </div>
+          </section>
+
+
+          <!-- A-7 17:00〜 -->
+          <section id="session_a7" class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+            <div class="mdl-card mdl-cell mdl-cell--12-col">
+              <div class="mdl-card__supporting-text mdl-grid mdl-grid--no-spacing" style="margin:24px;">
+
+                <div class="mdl-cell mdl-cell--12-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+                  <span class="timezone_hall">Hall・17:00〜</span>
+                </div>
+
+                <h5 class="mdl-cell--12-col">業界別マイクロサービスの実際</h5>
+                
+
+                <div class="mdl-cell mdl-cell--12-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+                <p class="line_separator"><br /></p>
+                </div>
+                <div class="section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
+                  <div class="mdl-color--primary profile_circle-big">
+                  <img src="./images/speakers/A-7_ryu_yokoji.jpg" class="mdl-color--primary profile_circle-big">
+                  </div>
+                </div>
+
+                <div class="section__text mdl-cell mdl-cell--10-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
+                  <h5>横路 隆 (よこじ りゅう)</h5>
+                  freee株式会社<br>
+                  CTO<br>
+                  <br>
+                  Ruby City 松江育ち。学生時代よりビジネス向けシステム開発に携わる。ソニーを経て、freee株式会社を共同創業。テクノロジーでスモールビジネスのありかたを再定義します。
+                </div>
+
+                <div class="section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
+                  <div class="mdl-color--primary profile_circle-big">
+                  <img src="./images/speakers/A-7_yuusuke_tanaka.jpg" class="mdl-color--primary profile_circle-big">
+                  </div>
+                </div>
+                <div class="section__text mdl-cell mdl-cell--10-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
+                  <h5>田中 勇輔 (たなか ゆうすけ)</h5>
+                  株式会社アカツキ<br>
+                  CTO<br>
+                  <br>
+                  大手化学メーカーのグループSIerでインフラの運用やERPパッケージの導入などに携わった後、2012年 株式会社アカツキ入社。2014年よりCTOを務め、現在はゲーム技術基盤の開発やセキュリティ対策をリードしている。
+                </div>
+
+                <div class="section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
+                  <div class="mdl-color--primary profile_circle-big">
+                  <img src="./images/speakers/A-7_hideo_kimura.jpg" class="mdl-color--primary profile_circle-big">
+                  </div>
+                </div>
+                <div class="section__text mdl-cell mdl-cell--10-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
+                  <h5>木村 秀夫 (きむら ひでお)</h5>
+                  株式会社メルペイ<br>
+                  執行役員VP of Engineering<br>
+                  <br>
+                  ISPでキャリアをスタート。独立起業、大手通信キャリアでのエンジニアの経験を経て、2009年 株式会社ディー・エヌ・エー入社。エンジニアとしてモバゲーオープンプラットフォームの立ち上げをリードした後に、同社Japanリージョンゲーム事業本部プラットフォーム本部長執行役員、システム本部長執行役員、自動運転事業子会社取締役、などを歴任。2018年5月よりメルペイ執行役員VP of Engineering。
+                </div>
+
+
+            </div>
+          </section>
+
+          <!-- B-7 17:00〜 -->
+          <section id="session_b7" class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+            <div class="mdl-card mdl-cell mdl-cell--12-col">
+              <div class="mdl-card__supporting-text mdl-grid mdl-grid--no-spacing" style="margin:24px;">
+
+                <div class="mdl-cell mdl-cell--12-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+                  <span class="timezone_room1">Room 1・17:00〜</span>
+                </div>
+
+                <h5>DMM改革の1年、その実際と反省</h5>
+                多くの組織がEngineering managementに取り組む過程での文化の変革に苦労されているのではないでしょうか。 2018年10月にCTO就任後、4000人近い社員を抱えるDMMのテックカンパニー化に取り組んできました。 これまで様々な場所で断片的に変革の状況を発信してきましたが、今回は1年の変革の状況を振り返りしていきます。 その中で重視していたヒアリング・パッケージ化・透明性・小さな成功に関する取り組み方の実際の話をさせていただきながら、如何に文化をテックカンパニーとして変革するかその方法論をお話できればと考えています。
+
+                <div class="mdl-cell mdl-cell--12-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+                <p class="line_separator"><br /></p>
+                </div>
+                <div class="section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
+                  <div class="mdl-color--primary profile_circle-big">
+                  <img src="./images/speakers/B-7_matsumoto.jpg" class="mdl-color--primary profile_circle-big">
+                  </div>
+                </div>
+
+                <div class="section__text mdl-cell mdl-cell--10-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
+                  <h5>松本 勇気 (まつもと ゆうき)</h5>
+                  <a href="https://dmm-corp.com/" target="_blank" style="color:#616161">合同会社DMM.com</a><br>
+                  CTO<br>
+                  <br>
+                  2018年10月11日より合同会社 DMM.com CTO（最高技術責任者）に就任。
+2018年8月まで株式会社Gunosyにて執行役員 CTOおよび新規事業開発室室長。
+Gunosy創業直後に入社。
+これまでニュース配信サービス「グノシー」「ニュースパス」などの立ち上げから規模拡大、また広告配信における機械学習アルゴリズムやアーキテクチャ設計を担当し、幅広い領域の開発を手がける。
+新規事業開発室担当として、ブロックチェーンやVR/ARといった各種技術の調査・開発を行う。
+2019年5月よりDMM GAMES CTOを兼任。<br>
+                  <br>
+                  <a href="https://twitter.com/DMMcom_tech" target="_blank"><img src="./images/twitter.png" width="17px"> @DMMcom_tech</a>
+                </div>
+
+            </div>
+          </section>
+
+          <!-- C-7 17:00〜 -->
+          <section id="session_c7" class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+            <div class="mdl-card mdl-cell mdl-cell--12-col">
+              <div class="mdl-card__supporting-text mdl-grid mdl-grid--no-spacing" style="margin:24px;">
+
+                <div class="mdl-cell mdl-cell--12-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+                  <span class="timezone_room0">Room 0・17:00〜</span>
+                </div>
+
+                <h5>ペパボのエンジニアリングマネジメント一問一答</h5>
+                GMOペパボ株式会社では、各事業部にエンジニアリングマネジメントを職務とするチーフテクニカルリード(CTL)と、事業責任者である部長がいます。本セッションでは、EC事業部の部長である寺井が、CTLである高橋に対して、就任してからの3年で行ってきた技術・組織課題への取り組みやその結果について、一問一答スタイルで問い掛けていきます。ビジネスマネージャとエンジニアリングマネージャ、それぞれの立場で課題解決にあたっている2人のトークをお楽しみください。
+
+
+                <div class="mdl-cell mdl-cell--12-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+                <p class="line_separator"><br /></p>
+                </div>
+                <div class="section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
+                  <div class="mdl-color--primary profile_circle-big">
+                  <img src="./images/speakers/C-7_kenichi _takahashi.jpg" class="mdl-color--primary profile_circle-big">
+                  </div>
+                </div>
+
+                <div class="section__text mdl-cell mdl-cell--10-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
+                  <h5>高橋 健一 (たかはし けんいち)</h5>
+                  <a href="https://pepabo.com" target="_blank" style="color:#616161">GMOペパボ株式会社</a><br>
+                  EC事業部・チーフテクニカルリード<br>
+                  <br>
+                  GMOペパボ株式会社EC事業部のチーフクテクニカルリード。2020年で15周年を向かえるECプラットフォームサービス「カラーミーショップ」の技術課題の解決、およびエンジニア組織の成長のため、日々業務に取り組んでいる。Rubyとアジャイルなソフトウェア開発が好物。猫を2匹飼っている。
+                </div>
+
+                <div class="section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
+                  <div class="mdl-color--primary profile_circle-big">
+                  <img src="./images/speakers/C-7_hideaki_terai.jpg" class="mdl-color--primary profile_circle-big">
+                  </div>
+                </div>
+
+                <div class="section__text mdl-cell mdl-cell--10-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
+                  <h5>寺井 秀明 (てらい ひであき)</h5>
+                  <a href="https://pepabo.com" target="_blank" style="color:#616161">GMOペパボ株式会社</a><br>
+                  EC事業部 部長<br>
+                  <br>
+                  GMOペパボ株式会社EC事業部の部長。2011年エンジニアとして入社後、2016年よりカラーミーショップのマネージャ、2018年より現職。最近は「カラーミーショップアプリストア」を中心としたカラーミーショップの事業拡大のために各地を奔走している。好きなラジオは「安住紳一郎の日曜天国」。<br>
+
+                </div>
+
+
+            </div>
+          </section>
+
+
+          <section class="section--center mdl-grid mdl-grid--no-spacing" style="margin-bottom:0px;margin-top:0px;">
+            <div class="mdl-cell mdl-cell--12-col"> 
+　　　　　  <h5 class="mdl-cell--12-col" style="margin-top:0px;background-color:#888888;color:white;padding:10px;">18:00 START</h4>
+            </div>
+          </section>
+
+          <!-- A-8 EM.FM公開収録 18:00〜 -->
+          <section id="session_a8" class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+            <div class="mdl-card mdl-cell mdl-cell--12-col">
+              <div class="mdl-card__supporting-text mdl-grid mdl-grid--no-spacing" style="margin:24px;">
+
+                <div class="mdl-cell mdl-cell--12-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+                  <span class="timezone_hall">Hall・18:00〜</span>
+                </div>
+
+                <h5>EM.FM公開収録</h5>
+                <!-- TODO: セッション概要 -->
+
+                <div class="mdl-cell mdl-cell--12-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+                <p class="line_separator"><br /></p>
+                </div>
+                <div class="section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
+                  <div class="mdl-color--primary profile_circle-big">
+                  <!-- img src="./images/speakers/" class="mdl-color--primary profile_circle-big" -->
+                  </div>
+                </div>
+
+                <div class="section__text mdl-cell mdl-cell--10-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
+                  <h5>広木 大地 (ひろき だいち)</h5>
+                  <a href="https://anchor.fm/em-fm" target="_blank" style="color:#616161">EM.FM</a><br>
+                  <br>
+                  <br>
+                </div>
+
+                <div class="section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
+                  <div class="mdl-color--primary profile_circle-big">
+                  <img src="./images/speakers/A-8_yunon.png" class="mdl-color--primary profile_circle-big" -->
+                  </div>
+                </div>
+
+                <div class="section__text mdl-cell mdl-cell--10-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
+                  <h5>湯前　慶大 (ゆのまえ　よしひろ)</h5>
+                  <a href="https://anchor.fm/em-fm" target="_blank" style="color:#616161">EM.FM</a><br>
+                </div>
+
+
+            </div>
+          </section>
+
+
+        </div>
+
+        <footer class="mdl-mega-footer">
+          <div class="mdl-mega-footer--bottom-section">
+            <ul class="mdl-mega-footer--link-list">
+              <li>©EOF2019運営事務局</li>
+            </ul>
+          </div>
+        </footer>
+
+      </main>
+    </div>
+    <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+  </body>
+</html>

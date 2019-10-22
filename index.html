@@ -1,0 +1,561 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="A front-end template that helps you build fast, modern mobile web apps.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>EOF2019 (Engineering Organization Festival)</title>
+
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="icon" sizes="192x192" href="images/android-desktop.png">
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="EOF2019">
+    <link rel="apple-touch-icon-precomposed" href="images/ios-desktop.png">
+
+    <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
+    <meta name="msapplication-TileColor" content="#3372DF">
+
+    <link rel="shortcut icon" href="images/favicon.png">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="material.colorset.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+    #view-source {
+      position: fixed;
+      display: block;
+      right: 0;
+      bottom: 0;
+      margin-right: 40px;
+      margin-bottom: 40px;
+      z-index: 900;
+    }
+    </style>
+  </head>
+  <body class="mdl-demo mdl-color--grey-100 mdl-color-text--grey-700 mdl-base">
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+      <header class="mdl-layout__header mdl-layout__header--scroll mdl-color--primary">
+        <div class="mdl-layout__header-row" style="height:30px;">
+        </div>
+        <div class="mdl-layout__header-row">
+          <h3><img src="./images/eof_logo_RGB_white_transparent.png"></h3>
+        </div>
+<!--
+        <div class="mdl-layout--large-screen-only mdl-layout__header-row">
+        </div>
+-->
+        <div class="mdl-layout__tab-bar mdl-js-ripple-effect mdl-color--primary-dark">
+          <a href="index.html" class="mdl-layout__tab is-active">Contents</a>
+          <a href="sessions.html" class="mdl-layout__tab">Sessions</a>
+        </div>
+      </header>
+
+      <main class="mdl-layout__content">
+
+
+        <div class="mdl-layout__tab-panel is-active" id="overview">
+
+          <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+            <div class="mdl-card mdl-cell mdl-cell--12-col" style="padding:0px;">
+              <div class="mdl-card__supporting-text mdl-grid mdl-grid--no-spacing" style="margin:24px;">
+                <h4 class="mdl-cell mdl-cell--12-col">Sessions</h4>
+<!--
+                <div class="section__text mdl-cell mdl-cell--12-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
+                  <h5>Team / Communication</h5>
+                  チームやコミュニケーションの手法、組織設計、プロセスなど通信不確実性をどのように乗り越えてきたのか。そこでの発見などを共有。
+                </div>
+                <div class="section__text mdl-cell mdl-cell--12-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
+                  <h5>Developer eXperience</h5>
+                  開発者体験(DX)を向上させるために、制度・仕組み・技術を使ってどのように開発者が生産性を発揮できる環境を作ってきたか。
+                </div>
+                <div class="section__text mdl-cell mdl-cell--12-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
+                  <h5>Architecture / Technology</h5>
+                  アーキテクチャ/技術によって、組織構造を変えたり、ボトルネックを解消できたこと。コンウェイの法則、あるいはその失敗体験談など。
+                </div>
+                <div class="section__text mdl-cell mdl-cell--12-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
+                  <h5>Design / Product</h5>
+                  プロダクトマネジメント/デザインのプロセスを通じて、事業の目的不確実性を乗り越えた話、あるいはそこでの失敗体験など。
+                </div>
+
+                <h4 class="mdl-cell mdl-cell--12-col" style="margin-top: 25px;">Time Table</h4>
+-->
+                  <div class="mdl-cell mdl-cell--12-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+                  <table style="width:100%;">
+                  <tbody>
+
+                  <tr>
+                  <th style="width:4%;background-color: #666666;color: #ffffff;">時間</th>
+                  <th style="width:32%;background-color: #666666;color: #ffffff;">ホール</th>
+                  <th style="width:32%;background-color: #666666;color: #ffffff;">Room 1</th>
+                  <th style="width:32%;background-color: #666666;color: #ffffff;">Room 0</th>
+                  </tr>
+
+                  <tr>
+                  <td align="center" valign="top">10:00</td>
+                  <td style="background-color:#eeeeee;text-align:center;height:30px;">Open</th>
+                  <td rowspan="2" style="background-color:#eeeeee;text-align:center;height:30px;margin"><br></th>
+                  <td rowspan="2" style="background-color:#eeeeee;text-align:center;height:30px;"><br></th>
+                  </tr>
+
+                  <tr>
+                  <td align="center" valign="top">10:30</td>
+                  <td style="height:30px;"><a>Opening Talk</a><br><div class="author">広木 大地 [EM.FM]</div></td>
+                  </tr>
+
+                  <tr>
+                  <td align="center" valign="top">11:00</td>
+                  <td><!-- badge class="badge_1">Team / Communication</badge><br -->
+                  <a href="sessions.html#session_a1">質とスピード</a><br><div class="author">和田 卓人 [タワーズ・クエスト株式会社]</div><br></td>
+                  <td><!-- badge class="badge_2">Team / Communication</badge><br -->
+                  <a href="sessions.html#session_b1">Podcastという組織文化戦略</a><br><div class="author">岩瀬 義昌 [NTTコミュニケーションズ株式会社]<br>鈴木 健太 [株式会社fluct]<br>湯前 慶大 [アカツキ]</div></td>
+                  <td><!-- badge class="badge_3">Team / Communication</badge><br -->
+                  <a href="sessions.html#session_c1">正しいものを正しくともにつくる</a><br><div class="author">市谷 聡啓 [ギルドワークス株式会社]</div><br></td>
+                  </tr>
+
+                  <tr class="active">
+                  <td align="center" valign="top">11:45</td>
+                  <td colspan="3" style="text-align:center;background-color:#eeeeee;">休憩</th>
+                  </tr>
+
+                  <tr>
+                  <td align="center" valign="top">12:10</td>
+                  <td><!-- badge class="badge_4">Team / Communication</badge><br -->
+                  <a href="sessions.html#session_a2">プロジェクトマネジメントを武器に働こうとしていたら、組織/チーム作りを武器にしたくなった話</a><br><div class="author">谷川 能章 [LINE株式会社]</div><br></td>
+                  <td><!-- badge class="badge_4">Architecture / Technology</badge><br -->
+                  <a href="sessions.html#session_b2">大規模組織からスタートアップまで、楽天のマネジメントの多様性
+</a><br><div class="author">絹川 達也 [楽天株式会社]<br>河村 真 [楽天株式会社]</div><br></td>
+                  <td><!-- badge class="badge_1"">Developer eXperience</badge><br -->
+                  <a href="sessions.html#session_c2">筋肉質なエンジニア組織を目指して ~失敗と成功から学ぶエンジニア組織の作り方~</a><br><div class="author">鈴木 康寛 [Sansan株式会社]</div><br></td>
+                  </tr>
+
+                  <tr class="active">
+                  <td align="center" valign="top">12:55</td>
+                  <td colspan="3" style="background-color:#eeeeee;text-align:center;">休憩</td>
+                  </tr>
+
+                  <tr>
+                  <td align="center" valign="top">13:05</td>
+                  <td><!-- badge class="badge_1">Team / Communication</badge><br -->
+                  <a href="sessions.html#session_a3">社員100人規模のWebサービスにおけるエンジニアリングマネジメント</a><br><div class="author">藤川 真一 [BASE株式会社]</div><br></td>
+                  <td><!-- badge class="badge_2">Team / Communication</badge><br -->
+                  <a href="sessions.html#session_b3">なんとなくチームを構成することから脱却する方法</a><br><div class="author">湯前　慶大 [株式会社アカツキ]</div><br></td>
+                  <td><!-- badge class="badge_3">Team / Communication</badge><br -->
+                  <a href="sessions.html#session_c3">クライアントワーク企業でもできるエンジニアリング組織のつくり方</a><br><div class="author">永江 耕治 [株式会社エーピーコミュニケーションズ]</div><br></td>
+                  </tr>
+
+                  <tr class="active">
+                  <td align="center" valign="top">13:45</td>
+                  <td colspan="3" style="background-color:#eeeeee;text-align:center;">休憩</td>
+                  </tr>
+
+                  <tr>
+                  <td align="center" valign="top">14:00</td>
+                  <td><!-- badge class="badge_1">Team / Communication</badge><br -->
+                  <a href="sessions.html#session_a4">TBD</a><br><div class="author"> [株式会社メルカリ]</div><br></td>
+                  <td><!-- badge class="badge_2">Team / Communication</badge><br -->
+                  <a href="sessions.html#session_b4">自分らしいリーダーシップの形</a><br><div class="author">山崎 遼介 [freee株式会社]</div><br></td>
+                  <td><!-- badge class="badge_3">Team / Communication</badge><br -->
+                  <a href="sessions.html#session_c4">TBD</a><br><div class="author">[Findy（ファインディ）]</div><br></td>
+                  </tr>
+
+                  <tr class="active">
+                  <td align="center" valign="top">14:45</td>
+                  <td colspan="3" style="background-color:#eeeeee;text-align:center;">休憩</td>
+                  </tr>
+
+                  <tr>
+                  <td align="center" valign="top">15:00</td>
+                  <td><!-- badge class="badge_1">Team / Communication</badge><br -->
+                  <a href="sessions.html#session_a5">ミクシィのマネージャーは悩んでいる</a><br><div class="author">酒井 篤 [株式会社ミクシィ]</div><br></td>
+                  <td><!-- badge class="badge_2">Team / Communication</badge><br -->
+                  <a href="sessions.html#session_b5">TBD</a><br><div class="author">[株式会社ディー・エヌ・エー]</div><br></td>
+                  <td><!-- badge class="badge_3">Team / Communication</badge><br -->
+                  <a href="sessions.html#session_c5">TBD</a><br><div class="author">[株式会社メディアドゥ]</div><br></td>
+                  </tr>
+
+                  <tr class="active">
+                  <td align="center">15:45</td>
+                  <td colspan="3" style="background-color:#eeeeee;text-align:center;">休憩</td>
+                  </tr>
+
+                  <tr>
+                  <td align="center" valign="top">16:00</td>
+                  <td><!-- badge class="badge_1">Team / Communication</badge><br -->
+                  <a href="sessions.html#session_a6">チャットコミュニケーションの問題と心理的安全性の課題</a><br><div class="author">中山 ところてん [株式会社NextInt]</div><br></td>
+                  <td><!-- badge class="badge_2">Team / Communication</badge><br -->
+                  <a href="sessions.html#session_b6">レガシーコードからの脱却</a><br><div class="author">吉羽 龍太郎 [株式会社アトラクタ]</div><br></td>
+                  <td><!-- badge class="badge_3">Team / Communication</badge><br -->
+                  <a href="sessions.html#session_c6">学習する組織の作り方</a><br><div class="author">古川 陽介 [株式会社リクルートテクノロジーズ]</div><br></td>
+                  </tr>
+
+                  <tr class="active">
+                  <td align="center">16:45</td>
+                  <td colspan="3" style="background-color:#eeeeee;text-align:center;">休憩</td>
+                  </tr>
+
+                  <tr>
+                  <td align="center" valign="top">17:00</td>
+                  <td><!-- badge class="badge_1">Team / Communication</badge><br -->
+                  <a href="sessions.html#session_a7">業界別マイクロサービスの実際</a><br><div class="author">横路 隆 [freee株式会社]<br>田中 勇輔 [株式会社アカツキ]<br>木村 秀夫 [株式会社メルペイ]<br>広木 大地 [株式会社レクター]</div></td>
+                  <td><!-- badge class="badge_2">Team / Communication</badge><br -->
+                  <a href="sessions.html#session_b7">DMM改革の1年、その実際と反省</a><br><div class="author">松本 勇気 [合同会社DMM.com]</div><br></td>
+                  <td><!-- badge class="badge_3">Team / Communication</badge><br -->
+                  <a href="sessions.html#session_c7">ペパボのエンジニアリングマネジメント一問一答</a><br><div class="author">高橋 健一 [GMOペパボ株式会社]<br>寺井 秀明 [GMOペパボ株式会社]</div><br></td>
+                  </tr>
+
+                  <tr class="active">
+                  <td align="center">17:45</td>
+                  <td  style="background-color:#eeeeee;text-align:center;">休憩</td>
+                  <td rowspan="2" style="background-color:#eeeeee;"><br></td>
+                  <td rowspan="2" style="background-color:#eeeeee;"><br></td>
+                  </tr>
+
+                  <tr>
+                  <td align="center" valign="top">18:00</td>
+                  <td>
+                  <a href="">EM.FM公開収録</a><br><div class="author">広木 大地<br>湯前 慶大</div><br><br></td>
+                  </tr>
+
+
+                </tbody>
+              </table>
+
+              </div>
+
+<!-- div class="mdl-cell--12-col" style="padding-top:20px;">※ASK THE SPEAKERについて<br /></div -->
+
+
+          </div>
+
+        </div>
+      </section>
+
+          <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+            <div class="mdl-card mdl-cell mdl-cell--12-col">
+              <div class="mdl-card__supporting-text" style="margin:24px;">
+                <h4>OST</h4>
+EM Meetupで行われている、Open Space Technologyというアンカンファレンスの手法を用いて、来場者が主体的に参加して議論を起こしていくことで、エンジニアリングマネージメントの意識や学習が生まれることをゴールとして、開催します。
+              </div>
+          </section>
+
+
+          <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+            <div class="mdl-card mdl-cell mdl-cell--12-col">
+              <div class="mdl-card__supporting-text" style="margin:24px;">
+                <h4>EM.FM公開収録</h4>
+EM.FM Podcastの公開生収録を行います。 エンジニアリング組織について語られることの多かったこの１年と今後の展望、今回のイベントを通じた気づきなどについて、登壇者・参加者を巻き込みながらの公開収録を予定しています。
+<br /><br />
+エンジニアリングマネージャをもっと魅力的に、 エンジニアリング組織をもっと透明にするためにどうしたらよいか話をする
+              </div>
+          </section>
+
+  <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+    <div class="mdl-card mdl-cell mdl-cell--12-col">
+      <div class="mdl-card__supporting-text mdl-grid mdl-grid--no-spacing" id="sponsors" style="margin: 24px;">
+
+        <h4 class="mdl-cell mdl-cell--12-col">Sponsors</h4>
+
+        <div class="mdl-cell mdl-cell--12-col" style="margin:25px auto;text-align:center;">
+        <span style="background-color:#333333;color:#fff;padding:3px 16%;font-size:large;">　GOLD SPONSORS　</span>
+        </div>
+
+        <div class="mdl-cell mdl-cell--6-col-desktop mdl-cell--3-col-tablet mdl-cell--2-col-phone" style="margin:5px auto;text-align:right;">
+          <a target="_blank" href="https://linecorp.com/ja/"><img src="./images/sponsors/01_LINE.png" style="width:100%;max-width:300px;"></a>
+        </div>
+
+        <div class="mdl-cell mdl-cell--6-col-desktop mdl-cell--3-col-tablet mdl-cell--2-col-phone" style="margin:5px auto;text-align:left;">
+          <a target="_blank" href="https://mixi.co.jp/recruit/"><img src="./images/sponsors/02_mixi.png" style="width:100%;max-width:300px;"></a>
+        </div>
+
+        <div class="mdl-cell mdl-cell--6-col-desktop mdl-cell--3-col-tablet mdl-cell--2-col-phone" style="margin:5px auto;text-align:right;">
+          <a target="_blank" href="https://binc.jp"><img src="./images/sponsors/03_BASE.png" style="width:100%;max-width:300px;"></a>
+        </div>
+
+        <div class="mdl-cell mdl-cell--6-col-desktop mdl-cell--3-col-tablet mdl-cell--2-col-phone" style="margin:5px auto;text-align:left;">
+          <a target="_blank" href="https://www.mercari.com/jp/"><img src="./images/sponsors/04_mercari.png" style="width:100%;max-width:300px;"></a>
+        </div>
+
+        <div class="mdl-cell mdl-cell--12-col" style="margin:5px;"><br></div>
+
+        <div class="mdl-cell mdl-cell--12-col" style="margin:25px auto;text-align:center;">
+        <span style="background-color:#333333;color:#fff;padding:3px 16%;font-size:large;">SAPPHIRE SPONSORS</span>
+        </div>
+
+        <div class="mdl-cell mdl-cell--4-col-desktop mdl-cell--3-col-tablet mdl-cell--2-col-phone" style="margin:15px auto;text-align:center;">
+          <a target="_blank" href="https://aktsk.jp/"><img src="./images/sponsors/05_akatsuki.png" style="width:100%;max-width:200px;"></a>
+        </div>
+
+        <div class="mdl-cell mdl-cell--4-col-desktop mdl-cell--3-col-tablet mdl-cell--2-col-phone" style="margin:15px auto;text-align:center;">
+          <a target="_blank" href="https://dmm-corp.com/"><img src="./images/sponsors/06_dmm.png" style="width:100%;max-width:200px;"></a>
+        </div>
+
+        <div class="mdl-cell mdl-cell--4-col-desktop mdl-cell--3-col-tablet mdl-cell--2-col-phone" style="margin:15px auto;text-align:center;">
+          <a target="_blank" href="https://jobs.freee.co.jp"><img src="./images/sponsors/07_freee.png" style="width:100%;max-width:200px;"></a>
+        </div>
+
+        <div class="mdl-cell mdl-cell--6-col-desktop mdl-cell--3-col-tablet mdl-cell--2-col-phone" style="margin:15px auto;text-align:right;">
+          <a target="_blank" href="https://corp.rakuten.co.jp/"><img src="./images/sponsors/08_rakuten.png" style="width:100%;max-width:200px;"></a>
+        </div>
+
+        <div class="mdl-cell mdl-cell--6-col-desktop mdl-cell--3-col-tablet mdl-cell--2-col-phone" style="margin:15px auto;text-align:left;">
+          <a target="_blank" href="https://dena.com/jp/"><img src="./images/sponsors/09_dena.png" style="width:100%;max-width:200px;"></a>
+        </div>
+
+
+        <div class="mdl-cell mdl-cell--12-col" style="margin:5px;"><br></div>
+
+        <div class="mdl-cell mdl-cell--12-col" style="margin:25px auto;text-align:center;">
+        <span style="background-color:#333333;color:#fff;padding:3px 16%;font-size:large;"> EMERALD SPONSORS </span>
+        </div>
+
+        <div class="mdl-cell mdl-cell--4-col-desktop mdl-cell--3-col-tablet mdl-cell--2-col-phone" style="margin:15px auto;text-align:center;">
+          <a target="_blank" href="https://pepabo.com/"><img src="./images/sponsors/10_gmopepabo.png" style="width:100%;max-width:200px;"></a>
+        </div>
+
+        <div class="mdl-cell mdl-cell--4-col-desktop mdl-cell--3-col-tablet mdl-cell--2-col-phone" style="margin:15px auto;text-align:center;">
+          <a target="_blank" href="https://findy.co.jp/"><img src="./images/sponsors/11_findy.png" style="width:100%;max-width:200px;"></a>
+        </div>
+
+        <div class="mdl-cell mdl-cell--4-col-desktop mdl-cell--3-col-tablet mdl-cell--2-col-phone" style="margin:15px auto;text-align:center;">
+          <a target="_blank" href="https://mediado.jp/"><img src="./images/sponsors/12_mediado.png" style="width:100%;max-width:200px;"></a>
+        </div>
+
+        <div class="mdl-cell mdl-cell--6-col-desktop mdl-cell--3-col-tablet mdl-cell--2-col-phone" style="margin:15px auto;text-align:right;">
+          <a target="_blank" href="https://www.ap-com.co.jp/"><img src="./images/sponsors/13_apc.png" style="width:100%;max-width:200px;"></a>
+        </div>
+
+        <div class="mdl-cell mdl-cell--6-col-desktop mdl-cell--3-col-tablet mdl-cell--2-col-phone" style="margin:15px auto;text-align:left;">
+          <a target="_blank" href="https://buildersbox.corp-sansan.com/"><img src="./images/sponsors/14_sansan.png" style="width:100%;max-width:200px;"></a>
+        </div>
+
+
+        <div class="mdl-cell mdl-cell--12-col" style="margin:5px;"><br></div>
+
+        <div class="mdl-cell mdl-cell--12-col" style="margin:25px auto;text-align:center;">
+        <span style="background-color:#333333;color:#fff;padding:3px 16%;font-size:large;">  BREAK SPONSORS  </span>
+        </div>
+
+        <div class="mdl-cell mdl-cell--6-col-desktop mdl-cell--3-col-tablet mdl-cell--2-col-phone" style="margin:15px auto;text-align:right;">
+          <a target="_blank" href="https://www.quipper.com/jp/"><img src="./images/sponsors/15_Quipper.png" style="width:100%;max-width:200px;"></a>
+        </div>
+
+        <div class="mdl-cell mdl-cell--6-col-desktop mdl-cell--3-col-tablet mdl-cell--2-col-phone" style="margin:15px auto;text-align:left;">
+          <a target="_blank" href="https://opt-technologies.jp/"><img src="./images/sponsors/16_opt.png" style="width:100%;max-width:200px;"></a> 
+        </div>
+
+
+      </div>
+    </div>
+
+  </section>
+
+        </div>
+
+
+        <!-- modal contents -->
+        <!-- A-1 11:00〜 -->
+        <div id="session-a1" class="modal-content">
+          <section class="mdl-grid mdl-grid--no-spacing">
+            <div class="mdl-card mdl-cell mdl-cell--12-col">
+              <div class="mdl-card__supporting-text mdl-grid mdl-grid--no-spacing">
+
+                <div class="mdl-cell mdl-cell--12-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+                  <span class="timezone">Hall・11:00〜</span>
+                  <!-- TODO: カテゴリ-->
+                  <!-- badge class="badge_1">Team / Communication</badge -->
+                  <!-- badge class="badge_2">Developer eXperience</badge -->
+                  <!-- badge class="badge_3">Architecture / Technology</badge -->
+                  <!-- badge class="badge_4">Design / Product</badge -->
+                </div>
+
+                <h5 class="mdl-cell--12-col"><!-- TODO: タイトル --><span style="color:#cccccc">タイトル未定</span></h5>
+                <!-- TODO: セッション概要 --><span style="color:#cccccc">※調整中</span>
+
+                <div class="mdl-cell mdl-cell--12-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+                <p class="line_separator"><br /></p>
+                </div>
+                <div class="section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
+                  <div class="mdl-color--primary profile_circle-big">
+                  <img src="./images/speakers/A-1_takuto_wada.png" class="mdl-color--primary profile_circle-big">
+                  </div>
+                </div>
+
+                <div class="section__text mdl-cell mdl-cell--10-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
+                  <h5>和田 卓人 (わだ たくと)</h5>
+                  タワーズ・クエスト株式会社<br>
+                  プログラマ、テスト駆動開発者<br>
+                  <br>
+                  学生時代にソフトウェア工学を学び、オブジェクト指向分析/設計に傾倒。執筆活動や講演、ハンズオンイベントなどを通じてテスト駆動開発を広めようと努力している。 『プログラマが知るべき97のこと』（オライリージャパン、2010）監修。『SQLアンチパターン』（オライリージャパン、2013）監訳。『テスト駆動開発』（オーム社、2017）翻訳。 power-assert-js 作者。
+                </div>
+
+            </div>
+          </section>
+        </div>
+
+        <!-- B-1 11:00〜 -->
+        <div id="session-b1" class="modal-content mdl-layout__tab-panel" tabindex="-1" aria-labelledby aria-modal="true">
+          <section class="mdl-grid mdl-grid--no-spacing">
+            <div class="mdl-card mdl-cell mdl-cell--12-col">
+              <div class="mdl-card__supporting-text mdl-grid mdl-grid--no-spacing">
+
+                <div class="mdl-cell mdl-cell--12-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+                  <span class="timezone">Room 1・11:00〜</span>
+                  <!-- TODO: カテゴリ -->
+                  <!-- badge class="badge_1">Team / Communication</badge -->
+                  <!-- badge class="badge_2">Developer eXperience</badge -->
+                  <!-- badge class="badge_3">Architecture / Technology</badge -->
+                  <!-- badge class="badge_4">Design / Product</badge -->
+                </div>
+
+                <h5 class="mdl-cell--12-col"><!-- TODO: タイトル --><span style="color:#cccccc">タイトル未定</span></h5>
+                <!-- TODO: セッション概要 --><span style="color:#cccccc">※調整中</span>
+
+                <div class="mdl-cell mdl-cell--12-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+                <p class="line_separator"><br /></p>
+                </div>
+                <div class="section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
+                  <div class="mdl-color--primary profile_circle-big">
+                  <img src="./images/speakers/B-1_yoshimasa_iwase.png" class="mdl-color--primary profile_circle-big">
+                  </div>
+                </div>
+
+                <div class="section__text mdl-cell mdl-cell--10-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
+                  <h5>岩瀬 義昌 (いわせ よしまさ)</h5>
+                  NTTコミュニケーションズ株式会社<br>
+                  <br>
+                  NTT国際通信株式会社 / NTTコミュニケーションズにて、 WebRTCプラットフォームであるSkyWayの開発・運用や、社内のエンジニア支援に携わるソフトウェアエンジニア。 また、技術者向けPodcastであるhttp://fukabori.fm のパーソナリティ。
+                </div>
+
+                <div class="section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
+                  <div class="mdl-color--primary profile_circle-big">
+                  <img src="./images/speakers/B-1_kenta_suzuki.jpg" class="mdl-color--primary profile_circle-big">
+                  </div>
+                </div>
+
+                <div class="section__text mdl-cell mdl-cell--10-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
+                  <h5>鈴木健太</h5>
+                  株式会社fluct<br>
+                  CTO<br>
+                  <br>
+                  株式会社fluct CTO。ajitofmパーソナリティ。広告周りのエンジニアリングをしています。共著に「みんなのGo言語」「データ分析基盤構築入門」など。
+                </div>
+
+                <div class="section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
+                  <div class="mdl-color--primary profile_circle-big">
+                  <!-- TODO img src="./images/speakers/" class="mdl-color--primary profile_circle-big" -->
+                  </div>
+                </div>
+
+                <div class="section__text mdl-cell mdl-cell--10-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
+                  <h5>湯前 慶大 (ゆのまえ よしひろ)</h5>
+                  株式会社アカツキ<br>
+                  VP of Engineering<br>
+                  <br>
+                  <!-- TODO: プロフィール文 -->
+                </div>
+
+            </div>
+          </section>
+        </div>
+
+        <!-- C-1 11:00〜 -->
+        <div id="session-c1" class="modal-content">
+          <section class="mdl-grid mdl-grid--no-spacing">
+            <div class="mdl-card mdl-cell mdl-cell--12-col">
+              <div class="mdl-card__supporting-text mdl-grid mdl-grid--no-spacing">
+
+                <div class="mdl-cell mdl-cell--12-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+                  <span class="timezone">Room 0・11:00〜</span>
+                  <!-- TODO: カテゴリ -->
+                  <!-- badge class="badge_1">Team / Communication</badge -->
+                  <!-- badge class="badge_2">Developer eXperience</badge -->
+                  <!-- badge class="badge_3">Architecture / Technology</badge -->
+                  <!-- badge class="badge_4">Design / Product</badge -->
+                </div>
+
+                <h5 class="mdl-cell--12-col"><!-- TODO: タイトル --><span style="color:#cccccc">タイトル未定</span></h5>
+                <!-- TODO: セッション概要 --><span style="color:#cccccc">※調整中</span>
+
+                <div class="mdl-cell mdl-cell--12-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+                <p class="line_separator"><br /></p>
+                </div>
+                <div class="section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
+                  <div class="mdl-color--primary profile_circle-big">
+                  <img src="./images/speakers/C-1_toshihiro_ichitani.jpg" class="mdl-color--primary profile_circle-big">
+                  </div>
+                </div>
+
+                <div class="section__text mdl-cell mdl-cell--10-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
+                  <h5>市谷 聡啓 (いちたに としひろ)</h5>
+                  ギルドワークス株式会社<br>
+                  株式会社エナジャイル<br>
+                  DevLOVE<br>
+                  <br>
+                  サービスや事業についてのアイデア段階の構想から、コンセプトを練り上げていく仮説検証とアジャイル開発の運営について経験が厚い。プログラマーからキャリアをスタートし、SIerでのプロジェクトマネジメント、大規模インターネットサービスのプロデューサー、アジャイル開発の実践を経て、ギルドワークスを立ち上げる。それぞれの局面から得られた実践知で、ソフトウェアの共創に辿り着くべく越境し続けている。訳書に「リーン開発の現場」、著書に「カイゼン・ジャーニー」「正しいものを正しくつくる」がある
+                </div>
+
+            </div>
+          </section>
+        </div>
+
+        <!-- A-2 12:10〜 -->
+        <div id="session-a2" class="modal-content">
+          <section class="mdl-grid mdl-grid--no-spacing">
+            <div class="mdl-card mdl-cell mdl-cell--12-col">
+              <div class="mdl-card__supporting-text mdl-grid mdl-grid--no-spacing">
+
+                <div class="mdl-cell mdl-cell--12-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+                  <span class="timezone">Hall・12:10〜</span>
+                  <!-- TODO: カテゴリ--> 
+                  <!-- badge class="badge_1">Team / Communication</badge -->
+                  <!-- badge class="badge_2">Developer eXperience</badge -->
+                  <!-- badge class="badge_3">Architecture / Technology</badge -->
+                  <!-- badge class="badge_4">Design / Product</badge -->
+                </div>
+
+                <h5><!-- TODO: タイトル -->[準備中]</h5>
+                <!-- TODO: セッション概要 -->
+
+                <div class="mdl-cell mdl-cell--12-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+                <p class="line_separator"><br /></p>
+                </div>
+                <div class="section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
+                  <div class="mdl-color--primary profile_circle-big">
+                  <!-- img src="./images/speakers/" class="mdl-color--primary profile_circle-big" -->
+                  </div>
+                </div>
+
+                <div class="section__text mdl-cell mdl-cell--10-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
+                  <h5><!-- TODO: スピーカー氏名 -->-- --</h5>
+                  <!-- TODO: 所属企業・団体名 --><br>
+                  <!-- TODO: 役職・ポジション--><br>
+                  <br>
+                  <!-- TODO: プロフィール文 -->
+                </div>
+
+            </div>
+          </section>
+        </div>
+
+
+        <footer class="mdl-mega-footer">
+          <div class="mdl-mega-footer--bottom-section">
+            <ul class="mdl-mega-footer--link-list">
+              <li>©EOF2019運営事務局</li>
+            </ul>
+          </div>
+        </footer>
+
+      </main>
+    </div>
+
+    <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="modal.js"></script>
+
+  </body>
+</html>
